@@ -1,0 +1,20 @@
+git push .
+git commit -m "h"
+git push origin main 
+
+
+
+
+ sudo apt install git
+sudo apt install gh
+ git clone https://github.com/Aleex-Deh/Aleex-Deh
+nano TOKEN
+ gh louth login
+git commit -m "prueba"
+
+
+
+git add (archivo que quiero subir)
+ git add .    (. es para subir todo)
+ git commit -m "h"
+ git push -f origin main
