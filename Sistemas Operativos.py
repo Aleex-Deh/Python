@@ -11,7 +11,6 @@ Kill = Para eliminar un proceso activo. kill PID.  Ejemplo "kill 3262".
 
 
 script para consehuir el PID de un proceso
-
 #Script para imprimir el PID (numero de un proceso).
 import os
 # Obtenemos el PID del proceso actual (el script)
@@ -27,15 +26,11 @@ print(f"El PID del script 'bucle_infinito' en 'python.py' es {pid}")
 
 
 
+
 Ahora haremos un hilo, un hilo es un proceso pero que se va haciendo todo el tiempo, no es como un proceso normal, un proceso empieza y acaba, un hilo puede seguir haciendose mientras el otro proceso tambien se hace, es para hacer varias cosas simultaneamente.
 Aqui dejo un ejemplo 
-	Pegarlo todo en vscode para poder entenderlo mejor con los colores de cada codigo.
-
-Consultar la capeta de github, el archivo donde esta todo el codigo de abajo explicado se llama "Hilos y procesos.py"
-
 import threading
 import time
-
 
 # Función regular que realiza una tarea lenta
 def funcion_regular():
@@ -62,27 +57,3 @@ mi_hilo.start()
 mi_hilo.join()
 
 print("Programa principal ha terminado")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
