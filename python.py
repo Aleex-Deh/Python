@@ -35,13 +35,20 @@ for nombre in nombres:
 
     
 
+
+#Script para imprimir el PID (numero de un proceso).
+import os
+# Obtenemos el PID del proceso actual (el script)
+pid = os.getpid()
+
+# Imprimimos el PID
+print(f"El PID del script 'bucle_infinito' en 'python.py' es {pid}")
     
     
     
+# Bucle infinito
     
-    # Bucle infinito
-    
-    import time  # Importamos el módulo 'time' para poder usar la función 'sleep'.
+import time  # Importamos el módulo 'time' para poder usar la función 'sleep'.
 
 def bucle_infinito():  # Definimos una función llamada 'bucle_infinito'.
     while True:  # Iniciamos un bucle 'while' con la condición siempre verdadera, lo que lo hace infinito.
@@ -49,6 +56,8 @@ def bucle_infinito():  # Definimos una función llamada 'bucle_infinito'.
         time.sleep(5)  # Espera durante 5 segundos antes de la siguiente iteración del bucle.
 
 bucle_infinito()  # Llamamos a la función 'bucle_infinito' para comenzar el bucle infinito.
+
+
 
 
 
